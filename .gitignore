@@ -1,0 +1,29 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.log
+
+# Local copies and generated data
+/data/papers/
+/data/supplements/
+/data/sources.json
+/data/extracted/*
+!/data/extracted/.gitkeep
+/data/reviewed/*
+!/data/reviewed/.gitkeep
+
+# Personal-use PDF is retained locally but not publicly redistributed
+/ressources/11_Ridker_2017_Canakinumab_Atherosclerotic_Disease.pdf
+
+# Earlier local specification
+/docs/Project_Specification_v0_2_EN.docx
+
+# Operating system files
+Thumbs.db
+.DS_Store
