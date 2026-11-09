@@ -209,6 +209,18 @@ Completed on **9 November 2026**:
 
 The walkthrough used read-only graph queries. It did not add or remove evidence records.
 
-## 15 Current completed-work status
+## 15 Implementation published to GitHub
+
+Completed on **9 November 2026**:
+
+- Reviewed the 22 pending project files before publication and checked that no local credential values, database/runtime files, generated data or Excel lock files were included.
+- Verified that both `.xlsx` convenience copies still matched their original published workbooks.
+- Reran all **13 tests** successfully and passed the staged whitespace check.
+- Committed the extraction scripts, Neo4j setup/import/search code, readable graph style, tests, documentation, project log and Excel convenience copies in [`b8a2a57`](https://github.com/YoussefElGharbaouiDevs/disease-pathway-graphrag/commit/b8a2a57), **Build Jensen extraction and local Neo4j research graph**.
+- Successfully pushed that implementation commit to `origin/main` in [disease-pathway-graphrag](https://github.com/YoussefElGharbaouiDevs/disease-pathway-graphrag).
+
+Credentials, the running database, downloaded runtime, generated CSVs and local review reports remain excluded through Git ignore rules. The source materials and scripts needed to regenerate the tables are in the repository.
+
+## 16 Current completed-work status
 
 The project now has a running local Neo4j research graph with checked source-to-extraction accuracy, preserved pair and full-trajectory evidence, complete source references, repeatable import, bounded backward/forward exploration and readable association captions. A guided Browser walkthrough has been completed. Clinical review remains pending; observed temporal paths are not established individual causes. A project application and GraphRAG explanation service have not yet been implemented.
